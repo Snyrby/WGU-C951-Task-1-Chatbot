@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>softwaredeveloper</pattern>
+	    <template>
+	        <button>
+	            <text>Click to view a software developer article</text>
+	            <url>https://resources.workable.com/software-developer-job-description#:~:text=A%20Software%20Developer%20designs%20and,based%20on%20feedback%20from%20users.</url>
+            </button>
+	    </template>
+    </category>
+	
+</aiml>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>*</pattern>
+	    <template>I have no answer for that. Type "Job search" to begin.</template>
+    </category>
+	
+	<category>
+	    <pattern>^ JOB SEARCH ^</pattern>
+	    <template>Greetings. My name is SoftBot and I am a bot designed to help you find a job in Computer science.
+	    First, let's find out; do you want to learn more about jobs or have me help determine a good fit for you?
+	    <button>
+	        <text>Top 5 career options</text>
+	        <postback>careeroptions</postback>
+        </button>
+        <button>
+            <text>Ask me questions</text>
+            <postback>questionme</postback>
+        </button>
+	    </template>
+    </category>
+	
+</aiml>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>uxdesign</pattern>
+	    <template>
+	        <button>
+	            <text>Click to view a ux designer article</text>
+	            <url>https://resources.workable.com/ux-designer-job-description</url>
+            </button>
+	    </template>
+    </category>
+	
+</aiml>

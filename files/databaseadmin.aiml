@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+        <pattern>dba</pattern>
+	    <template>
+	        <button>
+	            <text>Click to view a database administrator article</text>
+	            <url>https://resources.workable.com/database-administrator-job-description#:~:text=Database%20Administrators%20ensure%20that%20the,access%20this%20information%20when%20needed.</url>
+            </button>
+	    </template>
+    </category>
+	
+</aiml>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>questionme</pattern>
+	    <template>
+	        Do you like design or programming?
+	        <button>
+	            <text>Design</text>
+	            <postback>design</postback>
+            </button>
+            <button>
+                <text>Programming</text>
+                <postback>program</postback>
+            </button>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>design</pattern>
+        <template>
+            Do you like the idea of websites or applications?
+            <button>
+                <text>
+                    Websites
+                </text>
+                <postback>webdeveloper</postback>
+            </button>
+            <button>
+                <text>uxdesign</text>
+                <postback></postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>program</pattern>
+        <template>
+            Do you like the idea of building applications, working with data, or protecting data?
+            <button>
+                <text>Applications</text>
+                <postback>softwaredeveloper</postback>
+            </button>
+            <button>
+                <text>Working with Data</text>
+                <postback>dba</postback>
+            </button>
+            <button>
+                <text>Protecting Data</text>
+                <postback>cybersecurity</postback>
+            </button>
+        </template>
+    </category>
+	
+</aiml>

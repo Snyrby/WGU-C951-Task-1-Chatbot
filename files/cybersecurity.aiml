@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>cybersecurity</pattern>
+	    <template>
+	        <button>
+	            <text>Click to view a cyber security article</text>
+	            <url>https://www.synopsys.com/glossary/what-is-cyber-security.html#:~:text=Definition,cyber-attacks%20or%20unauthorized%20access.</url>
+            </button>
+	    </template>
+    </category>
+	
+</aiml>
